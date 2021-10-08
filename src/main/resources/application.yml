@@ -1,0 +1,24 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: manager
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle10gDialect
+        format_sql: true
+    show-sql: true
+phonebook:
+  messages:
+     saveContactSuccess: Contact Saved Successfully
+     saveContactFailed:  Failed to Save Contact
+     updateContactSuccess: Contact Updated Successfully
+     updateContactFailed:  Failed to Update Contact
+     deleteContactSuccess: Contact Deleted Successfully
+     deleteContactFailed:  Failed to Delete Contact

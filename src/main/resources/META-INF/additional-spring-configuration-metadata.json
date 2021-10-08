@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "phonebook.messages.save-contact-success",
+    "type": "java.lang.String",
+    "description": "A description for 'phonebook.messages.save-contact-success'"
+  },
+  {
+    "name": "phonebook.messages.save-contact-failed",
+    "type": "java.lang.String",
+    "description": "A description for 'phonebook.messages.save-contact-failed'"
+  },
+  {
+    "name": "phonebook.messages.delete-contact-success",
+    "type": "java.lang.String",
+    "description": "A description for 'phonebook.messages.delete-contact-success'"
+  },
+  {
+    "name": "phonebook.messages.update-contact-success",
+    "type": "java.lang.String",
+    "description": "A description for 'phonebook.messages.update-contact-success'"
+  },
+  {
+    "name": "phonebook.messages.update-contact-failed",
+    "type": "java.lang.String",
+    "description": "A description for 'phonebook.messages.update-contact-failed'"
+  },
+  {
+    "name": "phonebook.messages.delete-contact-failed",
+    "type": "java.lang.String",
+    "description": "A description for 'phonebook.messages.delete-contact-failed'"
+  }
+]}
